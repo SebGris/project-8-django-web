@@ -1,2 +1,5 @@
+django-admin startproject merchex
+cd merchex
+
 python manage.py runserver
 python manage.py migrate
