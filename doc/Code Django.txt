@@ -6,3 +6,8 @@ python manage.py migrate
 
 nom de l'application « listings »
 python manage.py startapp listings
+
+python manage.py makemigrations
+python manage.py migrate
+
+python manage.py shell
