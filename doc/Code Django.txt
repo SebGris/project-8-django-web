@@ -3,3 +3,6 @@ cd merchex
 
 python manage.py runserver
 python manage.py migrate
+
+nom de l'application « listings »
+python manage.py startapp listings
