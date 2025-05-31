@@ -7,7 +7,12 @@ python manage.py migrate
 nom de l'application « listings »
 python manage.py startapp listings
 
+cd merchex
 python manage.py makemigrations
 python manage.py migrate
 
 python manage.py shell
+
+python manage.py createsuperuser
+
+python manage.py showmigrations
